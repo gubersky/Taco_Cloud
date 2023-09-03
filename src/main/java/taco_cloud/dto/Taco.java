@@ -5,10 +5,14 @@ import jakarta.validation.constraints.Size;
 import taco_cloud.entity.Ingredient;
 import lombok.Data;
 
+import java.util.Date;
 import java.util.List;
 
 @Data
 public class Taco {
+
+    private Long id;
+    private Date createdAt = new Date();
 
     @NotNull
     @Size(min = 5, message = "Name must be at least 5 characters long")
