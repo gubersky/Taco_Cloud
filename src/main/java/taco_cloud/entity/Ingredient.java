@@ -1,4 +1,4 @@
-package com.example.taco_cloud.entity;
+package taco_cloud.entity;
 
 import lombok.Data;
 

@@ -1,8 +1,9 @@
-package com.example.taco_cloud.converter;
+package taco_cloud.converter;
 
-import com.example.taco_cloud.entity.Ingredient;
+import taco_cloud.entity.Ingredient;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.stereotype.Component;
+
 import java.util.HashMap;
 import java.util.Map;
 
